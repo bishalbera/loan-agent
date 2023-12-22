@@ -15,6 +15,6 @@ app.add_middleware(
 def hello():
     return "Hello World 🖤"
 
-@app.post("/loan")
+@app.post("/loan-agent")
 def predict():
-    return "loan"
+    return "predict"
