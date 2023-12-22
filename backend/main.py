@@ -14,3 +14,7 @@ app.add_middleware(
 @app.get("/")
 def hello():
     return "Hello World 🖤"
+
+@app.post("/loan")
+def predict():
+    return "loan"
