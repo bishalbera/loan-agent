@@ -14,5 +14,4 @@ class LoanPredictorSchema(BaseModel):
     Loan_Amount_Term: float
     Credit_History: float
     Property_Area: str
-    Loan_Status: str
     Email: EmailStr
