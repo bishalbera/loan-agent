@@ -25,4 +25,4 @@ def approval_prediction(approval_req: schemas.LoanPredictorSchema):
         **request_data
     )
 
-    return prediction
+    return prediction.json()

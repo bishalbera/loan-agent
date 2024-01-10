@@ -49,7 +49,7 @@ def predict_loan_approval(
     
 
     subject = 'Loan Approved' if loan_status == 'Y' else 'Loan Rejected'
-    body = 'Congratulations! Your loan has been approved.' if loan_status == 'Y' else 'We regret to inform you that your loan application has been rejected.'
+    body = 'Congratulations! Your loan data has potential to be approved.' if loan_status == 'Y' else 'We regret to inform you that your loan data lacks potential to be approved.' 
 
     # Based on the Loan_Status send mail to the provided email
 
@@ -60,14 +60,14 @@ def predict_loan_approval(
     
     # Automate this whole process using Mindsdb Job Statement
 
-    sql_query = f"""
-    CREATE JOB loan_to_gmail (
-     {sql_query_1} {sql_query_2}
-    );
-    """
+    # sql_query = f"""
+    # CREATE JOB loan_to_gmail (
+    #  {sql_query_1} {sql_query_2}
+    # );
+    # """
 
-    response = mindsdb_query(MINDSDB_QUERY_ENDPOINT, sql_query)
-
+    response = mindsdb_query(MINDSDB_QUERY_ENDPOINT, sql_query_2)
+    print(response.text)
     return response
 
 
