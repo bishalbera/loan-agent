@@ -46,6 +46,7 @@ def predict_loan_approval(
         """
     response = mindsdb_query(MINDSDB_QUERY_ENDPOINT, sql_query_1)
     loan_status = response.json()['data'][0][0]
+    
 
     subject = 'Loan Approved' if loan_status == 'Y' else 'Loan Rejected'
     body = 'Congratulations! Your loan has been approved.' if loan_status == 'Y' else 'We regret to inform you that your loan application has been rejected.'
