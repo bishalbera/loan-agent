@@ -31,7 +31,7 @@ def predict_loan_approval(
 
     sql_query_1 = f"""
     SELECT Loan_Status 
-        FROM mindsdb.loan_approval_predictor 
+        FROM loan_agent.loan_approval_predictor 
         WHERE Gender = "{Gender}"
         AND Married = "{Married}"
         AND Dependents = "{Dependents}"
