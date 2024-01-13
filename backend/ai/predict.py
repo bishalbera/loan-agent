@@ -58,14 +58,6 @@ def predict_loan_approval(
      VALUES ("{message_id}", "{Email}", "Loan approval status", "{body}");
      """
     
-    # Automate this whole process using Mindsdb Job Statement
-
-    # sql_query = f"""
-    # CREATE JOB loan_to_gmail (
-    #  {sql_query_1} {sql_query_2}
-    # );
-    # """
-
     response = mindsdb_query(MINDSDB_QUERY_ENDPOINT, sql_query_2)
     print(response.text)
     return response
