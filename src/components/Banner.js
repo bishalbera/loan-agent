@@ -63,9 +63,9 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <span className="tagline">Welcome to Jarvis-AI</span>
+                  <span className="tagline">Welcome to LoanSwift</span>
                   <h1>
-                    {`Hi! it's JARVIS, your`}{" "}
+                    {`Hi! it's LendSwift, your`}{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
