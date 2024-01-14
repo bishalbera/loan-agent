@@ -63,7 +63,7 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <span className="tagline">Welcome to LoanSwift</span>
+                  <span className="tagline">Welcome to LendSwift</span>
                   <h1>
                     {`Hi! it's LendSwift, your`}{" "}
                     <span
