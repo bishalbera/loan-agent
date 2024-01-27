@@ -17,3 +17,11 @@ In the ever-evolving landscape of technology, Artificial Intelligence (AI) conti
 - Real-time Communication: MindsDB's gmail handler allows for instant communication with users by sending automated emails containing the loan approval status, providing a seamless user experience.
 
 - User Friendly Interface: The React based front end ensures an intuitive and aesthetically pleasing user interface, making it easy for users to input their data and understand loan approval decision.
+
+
+## Demo Video
+Here's the demo video of this [project](https://www.youtube.com/watch?v=FqFY93oStT8). If you want you can check this.
+
+
+## Detailed Blog
+Here's the detailed bolg for this [projecct](https://blog.bishalonline.co/revolutionizing-loan-approval-ai-powered-fastapi-and-mindsdb-solution-for-instant-decisions).
