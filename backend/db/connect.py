@@ -6,7 +6,7 @@ DATABASE_URL = config("DATABASE_URL", cast=str, default=None)
 DATABASE_URL is not None
 
 engine = create_engine(str(DATABASE_URL))
-SessionLocal = sessionmaker(bind=engine)
+SessionLocal = sessionmaker(autocommit=False, autoflush=False,bind=engine)
 
 
 def get_db_session():

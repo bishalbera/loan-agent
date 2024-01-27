@@ -12,8 +12,7 @@ class LoanPredictor(Base):
     __tablename__ = "loan_data"
 
     __table_args__ = {"extend_existing": True}
-    id = Column("Loan_ID", String,
-                primary_key=True, nullable=False)
+    id = Column(Integer, primary_key=True, nullable=False)
     Gender = Column(String)
     Married = Column(String)
     Dependents = Column(Float)

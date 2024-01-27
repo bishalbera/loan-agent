@@ -10,4 +10,4 @@ jinja2==3.0.3
 pydantic==1.10.13
 requests==2.31.0
 psycopg2
-mindsdb==23.11.1.0
+mindsdb==23.12.4.2
